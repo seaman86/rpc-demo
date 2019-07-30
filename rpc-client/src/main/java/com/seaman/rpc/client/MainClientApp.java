@@ -48,7 +48,6 @@ public class MainClientApp {
                         objectOutputStream.writeObject(args);
                         objectOutputStream.flush();
 
-
                         ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
                         try {
                             Object o = objectInputStream.readObject();
@@ -67,4 +66,5 @@ public class MainClientApp {
         );
 
     }
+
 }
