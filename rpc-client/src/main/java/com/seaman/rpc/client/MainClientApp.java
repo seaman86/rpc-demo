@@ -28,6 +28,7 @@ public class MainClientApp {
     }
 
     //注解说明测试一下
+    //解析
     private static Object rpc(final Class clazz) {
         return newProxyInstance(
                 clazz.getClassLoader(),
