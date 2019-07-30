@@ -20,6 +20,7 @@ import static java.lang.reflect.Proxy.newProxyInstance;
  */
 public class MainClientApp {
 
+    //git是是是
     public static void main(String[] args) {
         IProductService productService = (IProductService) rpc(IProductService.class);
         Product product = productService.getById(100L);
