@@ -27,7 +27,7 @@ public class MainClientApp {
         System.out.println(product);
     }
 
-
+    //注解说明测试一下
     private static Object rpc(final Class clazz) {
         return newProxyInstance(
                 clazz.getClassLoader(),
